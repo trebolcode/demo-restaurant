@@ -1,0 +1,11 @@
+version: "3"
+services:
+  api:
+    container_name: dev_restaurant_frontend
+    build:
+      context: .
+      dockerfile: ./compose/dev/Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app
