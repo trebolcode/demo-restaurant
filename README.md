@@ -1,6 +1,6 @@
 # Frontend Restaurant 🥑
 
-Hello, this repository contains data to get started with any frontend restaurant.
+Hello, this repository contains data to get started with frontend restaurant.
 
 ## What do you need to have installed? 💻
 
