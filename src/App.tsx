@@ -14,14 +14,14 @@ function App() {
   return (
     <div className="w-full h-screen bg-slate-300 flex flex-col justify-center items-center">
       <NavBar />
-      <Hero/>
+      {/* <Hero/>
       <Reservation/>
       <Daily/>
       <SpecialMenu/>
       <Gallery/>
       <Reviews/>
       <Contact/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
