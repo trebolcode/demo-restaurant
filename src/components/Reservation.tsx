@@ -1,6 +1,7 @@
 import React from 'react'
+
 import imgReservation from "../assets/img/imgReservation.jpg"
-/* Nuevo pull */
+
 const Reservation = () => {
   return (
   <section className="bg-[url('/src/assets/img/bgReservation.jpg')] bg-cover bg-bottom py-[70px] flex w-full h-auto justify-center">
@@ -19,3 +20,4 @@ const Reservation = () => {
   } 
   
 export default Reservation
+
