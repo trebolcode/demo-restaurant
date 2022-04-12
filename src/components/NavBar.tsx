@@ -1,4 +1,5 @@
-import images from "../assets/images"
+import images from "../assets/images";
+import NavLink from "./subcomponents/NavLink";
 
 // bg-[#d44625]
 
@@ -9,27 +10,15 @@ const NavBar = () => {
         <img src={images[0].img} alt={images[0].alt} />
       </div>
       <ul className="flex mr-16">
-        <li className="mx-1">
-          <a className="uppercase px-5 py-3 rounded-md hover:bg-[#d44625] hover:text-white transition-all ease-in-out duration-200" href="">home</a>
-        </li>
-        <li className="mx-1">
-          <a className="uppercase px-5 py-3 rounded-md hover:bg-[#d44625] hover:text-white transition-all ease-in-out duration-200" href="">menu</a>
-        </li>
-        <li className="mx-1">
-          <a className="uppercase px-5 py-3 rounded-md hover:bg-[#d44625] hover:text-white transition-all ease-in-out duration-200" href="">about</a>
-        </li>
-        <li className="mx-1">
-          <a className="uppercase px-5 py-3 rounded-md hover:bg-[#d44625] hover:text-white transition-all ease-in-out duration-200" href="">pages</a>
-        </li>
-        <li className="mx-1">
-          <a className="uppercase px-5 py-3 rounded-md hover:bg-[#d44625] hover:text-white transition-all ease-in-out duration-200" href="">blog</a>
-        </li>
-        <li className="mx-1">
-          <a className="uppercase px-5 py-3 rounded-md hover:bg-[#d44625] hover:text-white transition-all ease-in-out duration-200" href="">contact</a>
-        </li>
+        <NavLink name_link="home" />
+        <NavLink name_link="menu" />
+        <NavLink name_link="about" />
+        <NavLink name_link="pages" />
+        <NavLink name_link="blog" />
+        <NavLink name_link="contact" />
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
