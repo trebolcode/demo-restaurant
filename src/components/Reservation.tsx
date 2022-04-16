@@ -4,9 +4,9 @@ import imgReservation from "../assets/img/about-img.jpg";
 
 const Reservation = () => {
   return (
-    <section className="bg-reservation bg-cover bg-bottom py-[70px] flex w-full h-auto justify-center">
-      <div className="px-[15px] font-Rubik  w-[570px] h-[438.75]">
-        <h2 className="font-medium text-[30px] pb-[10px] leading-[120%]">
+    <section className="bg-reservation bg-cover bg-bottom py-[70px] w-full h-auto justify-center flex flex-col md:flex-row">
+      <div className="px-[15px] pb-[30px] md:pb-0 font-Rubik w-auto xl:w-[570px] h-auto md:w-[50%] md:pl-[40px] lg:pl-[45px] xl:pl-0">
+        <h2 className="font-medium text-[22px] md:text-[30px] pb-[10px] leading-[120%]">
           Welcome To{" "}
           <span className="text-colReser">Live Dinner Restaurant</span>
         </h2>
@@ -26,11 +26,11 @@ const Reservation = () => {
         </p>
         <ReserButton name_button="reservation" />
       </div>
-      <div className="px-[15px]">
+      <div className="w-auto md:w-[50%] xl:w-[540px] h-auto px-[15px] md:pr-[40px] lg:pr-[45px] xl:pr-0">
         <img
           src={imgReservation}
           alt=""
-          className="w-[100%] h-[438.75px] shadow-shaReser"
+          className="xl:w-[540px] xl:h-[438.75px] shadow-shaReser"
         />
       </div>
     </section>
