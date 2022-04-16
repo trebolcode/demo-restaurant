@@ -7,8 +7,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         reservation: "url('/src/assets/img/about-bg.jpg')",
+        slider1: "url('./src/assets/img/slider-01.jpg')",
       },
       colors: {
+        colPrimary: "#ffffff",
         colReser: "#d65106",
         colReserHover: "#333333",
       },
