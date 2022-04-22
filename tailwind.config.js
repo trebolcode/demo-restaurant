@@ -5,9 +5,12 @@ module.exports = {
       Rubik: ["Rubik", "sans-serif"],
     },
     extend: {
-      colors:{
-        'primary-orange':'#d44625'
-      }
+      backgroundImage: {
+        reservation: "url('/src/assets/img/about-bg.jpg')",
+      },
+      colors: {
+        "primary-orange": "#d44625",
+      },
     },
   },
   plugins: [],
