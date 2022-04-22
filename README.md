@@ -41,4 +41,10 @@ And now you can open on the local host on port 3000.
 
 If you want to finish it, just press CTRL+D.
 
+## Contributors
+
+🧑‍🚀[Goranjose](https://github.com/Goranjose)
+
+🧑‍🚀[Orliland](https://github.com/Orliland)
+
 ### Version 0.1.2 ⏰
