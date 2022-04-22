@@ -4,7 +4,11 @@ module.exports = {
     fontFamily: {
       Rubik: ["Rubik", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors:{
+        'primary-orange':'#d44625'
+      }
+    },
   },
   plugins: [],
 };
