@@ -4,7 +4,7 @@ import imgReservation from "../assets/img/about-img.jpg";
 
 const Reservation = () => {
   return (
-    <section className="bg-[url('/src/assets/img/bgReservation.jpg')] bg-cover bg-bottom py-[70px] flex w-full h-auto justify-center">
+    <section className="bg-reservation bg-cover bg-bottom py-[70px] flex w-full h-auto justify-center">
       <div className="px-[15px] font-[Rubik]  w-[570px] h-[438.75]">
         <h2 className="font-medium text-[30px] pb-[10px] leading-[120%]">
           Welcome To{" "}

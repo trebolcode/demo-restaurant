@@ -4,7 +4,14 @@ module.exports = {
     fontFamily: {
       Rubik: ["Rubik", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        reservation: "url('/src/assets/img/about-bg.jpg')",
+      },
+      colors: {
+        "primary-orange": "#d44625",
+      },
+    },
   },
   plugins: [],
 };
