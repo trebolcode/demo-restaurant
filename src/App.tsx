@@ -11,7 +11,7 @@ import SpecialMenu from "./components/SpecialMenu";
 function App() {
   return (
     <div className="w-full bg-slate-300 flex flex-col justify-center items-center">
-      <NavBar />
+      <NavBar/>
       <Hero />
       <Reservation />
       <Daily />
