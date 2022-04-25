@@ -19,6 +19,7 @@ This project uses Docker, so it is necessary to have it installed as well:
 | React JS (with TS) | [Documentation](https://en.reactjs.org/)  |
 | Tailwind CSS       | [Documentation](https://tailwindcss.com/) |
 | ViteJS             | [Documentation](https://vitejs.dev/)      |
+| Docker             | [Documentation](https://docs.docker.com/) |
 
 ## How to start? 🚀
 
@@ -36,8 +37,14 @@ Then, to execute the project you can use:
 
 And now you can open on the local host on port 3000.
 
-[Local Host](http://localhost:3000/)
+[Local Host - http://localhost:3000](http://localhost:3000/)
 
 If you want to finish it, just press CTRL+D.
 
-### Version 0.1.1 ⏰
+## Contributors
+
+🧑‍🚀[Goranjose](https://github.com/Goranjose)
+
+🧑‍🚀[Orliland](https://github.com/Orliland)
+
+### Version 0.1.2 ⏰

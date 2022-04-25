@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <nav className="w-full max-h-min flex justify-between items-center p-2 bg-white rounded-b-full shadow-md font-Rubik font-medium">
       <div className="flex justify-center items-center ml-20">
-        <img src={images[0].img} alt={images[0].alt} />
+        <img src={images.logo[0].img} alt={images.logo[0].alt} />
       </div>
       <ul className="flex mr-16">
         <NavLink name_link="home" />
