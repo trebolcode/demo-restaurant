@@ -14,12 +14,9 @@ const Gallery = () => {
         </p>
       </div>
       <div className="w-10/12 mt-16 mb-10 min-h-min grid grid-cols-3 grid-rows-2 gap-4">
-        <ImageGrid src_image={images.gallery[0]["img"]} />
-        <ImageGrid src_image={images.gallery[1]["img"]} />
-        <ImageGrid src_image={images.gallery[2]["img"]} />
-        <ImageGrid src_image={images.gallery[3]["img"]} />
-        <ImageGrid src_image={images.gallery[4]["img"]} />
-        <ImageGrid src_image={images.gallery[5]["img"]} />
+        {images.gallery.map((image) => {
+          return <ImageGrid src_image={image["img"]} />;
+        })}
       </div>
     </section>
   );
