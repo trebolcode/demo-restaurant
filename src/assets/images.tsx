@@ -9,32 +9,39 @@ import gallery_06 from "./img/gallery-img-06.jpg";
 export default {
   logo: [
     {
+      id: 1,
       img: logo,
       alt: "Logo Restaurant Demo",
     },
   ],
   gallery: [
     {
+      id: 1,
       img: gallery_01,
       alt: "Imagen de galeria",
     },
     {
+      id: 2,
       img: gallery_02,
       alt: "Imagen de galeria",
     },
     {
+      id: 3,
       img: gallery_03,
       alt: "Imagen de galeria",
     },
     {
+      id: 4,
       img: gallery_04,
       alt: "Imagen de galeria",
     },
     {
+      id: 5,
       img: gallery_05,
       alt: "Imagen de galeria",
     },
     {
+      id: 6,
       img: gallery_06,
       alt: "Imagen de galeria",
     },

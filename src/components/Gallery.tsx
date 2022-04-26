@@ -15,7 +15,7 @@ const Gallery = () => {
       </div>
       <div className="w-10/12 mt-16 mb-10 min-h-min grid grid-cols-3 grid-rows-2 gap-4">
         {images.gallery.map((image) => {
-          return <ImageGrid src_image={image["img"]} />;
+          return <ImageGrid key={image["id"]} src_image={image["img"]} />;
         })}
       </div>
     </section>

@@ -5,12 +5,12 @@ import NavLink from "./subcomponents/NavLink";
 
 const NavBar = () => {
   const name_bar_links = [
-    { id: 1045551, name: "home", path: "#home" },
-    { id: 1023332, name: "menu", path: "#menu" },
-    { id: 1034533, name: "about", path: "/about" },
-    { id: 1033564, name: "pages", path: "/pages" },
-    { id: 1023564, name: "blog", path: "/blog" },
-    { id: 1073564, name: "contact", path: "/contact" },
+    { id: 1, name: "home", path: "#home" },
+    { id: 2, name: "menu", path: "#menu" },
+    { id: 3, name: "about", path: "/about" },
+    { id: 4, name: "pages", path: "/pages" },
+    { id: 5, name: "blog", path: "/blog" },
+    { id: 6, name: "contact", path: "/contact" },
   ];
 
   return (
@@ -19,8 +19,8 @@ const NavBar = () => {
         <img src={images.logo[0].img} alt={images.logo[0].alt} />
       </div>
       <ul className="flex mr-16">
-        {name_bar_links.map((name) => {
-          return <NavLink key_id={name.id} name_link={name.name} />;
+        {name_bar_links.map((link) => {
+          return <NavLink key={link.id} name_link={link.name} />;
         })}
       </ul>
     </nav>
