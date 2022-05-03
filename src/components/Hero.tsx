@@ -9,6 +9,18 @@ const Hero = () => {
   const [styleBg, setStyleBg] = useState("bg-slider1");
   const [title, setTitle] = useState("Live Dinner Restaurant");
 
+  // const [counter, setCounter] = useState(0);
+  // const counterUp = () => {
+  //   const bg_list = ["bg-slider1", "bg-slider2", "bg-slider3"];
+  //   console.log(counter);
+  //   if (counter < bg_list.length) {
+  //     setCounter(counter);
+  //   } else {
+  //     setCounter(0);
+  //   }
+  //   console.log(bg_list.length);
+  // };
+
   const click01 = () => {
     setStyleBg("bg-slider1");
     setTitle("Live Dinner Restaurant");

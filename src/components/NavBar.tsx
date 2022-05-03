@@ -5,8 +5,8 @@ import NavLink from "./subcomponents/NavLink";
 
 const NavBar = () => {
   const name_bar_links = [
-    { id: 1, name: "home", path: "#home" },
-    { id: 2, name: "menu", path: "#menu" },
+    { id: 1, name: "home", path: "/home" },
+    { id: 2, name: "menu", path: "/menu" },
     { id: 3, name: "about", path: "/about" },
     { id: 4, name: "pages", path: "/pages" },
     { id: 5, name: "blog", path: "/blog" },
@@ -20,7 +20,9 @@ const NavBar = () => {
       </div>
       <ul className="flex mr-16">
         {name_bar_links.map((link) => {
-          return <NavLink key={link.id} name_link={link.name} />;
+          return (
+            <NavLink key={link.id} name_link={link.name} path_to={link.path} />
+          );
         })}
       </ul>
     </nav>

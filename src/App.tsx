@@ -1,26 +1,26 @@
-import Contact from "./components/Contact";
-import Daily from "./components/Daily";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
-import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-import Reservation from "./components/Reservation";
-import Reviews from "./components/Reviews";
-import SpecialMenu from "./components/SpecialMenu";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="w-full bg-slate-300 flex flex-col justify-center items-center">
-      <NavBar/>
-      <Hero />
-      <Reservation />
-      <Daily />
-      <SpecialMenu />
-      <Gallery />
-      <Reviews />
-      <Contact />
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/menu" element={<p>Page Menu</p>} />
+        <Route path="/about" element={<p>Page About</p>} />
+        <Route path="/reservation" element={<p>Page reservation</p>} />
+        <Route path="/stuff" element={<p>Page stuff</p>} />
+        <Route path="/gallery" element={<p>Page gallery</p>} />
+        <Route path="/contact" element={<p>Page contact</p>} />
+        <Route path="/blog" element={<p>Page blog</p>} />
+        <Route path="*" element={<p>404 Not Found</p>} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 
