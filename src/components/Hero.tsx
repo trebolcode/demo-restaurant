@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import Slider from "./subcomponents/Slider";
 import ReserButton from "./subcomponents/ReserButton";
-import SliderLeft from "../assets/icon/chevron-left.svg";
-import SliderRight from "../assets/icon/chevron-right.svg";
+import images from "../assets/images";
 
 const Hero = () => {
   const [select, setSelect] = useState(1);
@@ -84,7 +83,9 @@ const Hero = () => {
           <div
             className={`w-full h-screen bg-cover bg-center absolute ${styleBg}`}
           ></div>
+
           <div className="w-full h-screen bg-colReserHover opacity-50 absolute"></div>
+
           <Slider title={title} />
         </div>
       </div>
@@ -115,14 +116,14 @@ const Hero = () => {
           onClick={previousClick}
           className="absolute left-0 bg-colReser w-10 lg:w-12 h-10 lg:h-12 flex justify-center items-center rounded-[4px] lg:hover:bg-colSliderHover transition duration-[300ms] ease-in-out"
         >
-          <img src={SliderLeft} className="h-8 w-8" />
+          <img src={images.icon[0].img} className="h-8 w-8" />
         </button>
 
         <button
           onClick={nextClick}
           className="absolute right-0 bg-colReser w-10 lg:w-12 h-10 lg:h-12 flex justify-center items-center rounded-[4px] lg:hover:bg-colSliderHover transition duration-[300ms] ease-in-out"
         >
-          <img src={SliderRight} className="h-8 w-8" />
+          <img src={images.icon[1].img} className="h-8 w-8" />
         </button>
       </div>
 
