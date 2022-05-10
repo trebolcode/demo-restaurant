@@ -1,28 +1,12 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 const Daily = () => {
-  const [select, setSelect] = useState(false);
-  const [styleWork, setStyleWork] = useState("bg-slider3 bg-fixed");
-
-  const clickIn = () => {
-    if (select) {
-      const style_in = " w-full h-64 bg-slider1  bg-fixed";
-      setStyleWork(style_in);
-      setSelect(false);
-    } else {
-      const style_in = "w-full h-64 bg-slider2  bg-fixed";
-      setStyleWork(style_in);
-      setSelect(true);
-    }
-  };
-
   return (
-    <section
-      onClick={clickIn}
-      className={`w-full h-64 flex justify-center items-center cursor-pointer ${styleWork}`}
-    >
-      Daily
+    <section className="w-full h-96 flex flex-col justify-center bg-daily bg-center bg-fixed items-center">
+      <h3 className="text-white text-4xl">Daily note information</h3>
+      <h4 className="text-white text-3xl">Daily note</h4>
     </section>
   );
 };

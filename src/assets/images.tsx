@@ -5,6 +5,9 @@ import gallery_03 from "./img/gallery-img-03.jpg";
 import gallery_04 from "./img/gallery-img-04.jpg";
 import gallery_05 from "./img/gallery-img-05.jpg";
 import gallery_06 from "./img/gallery-img-06.jpg";
+import slider1 from "./img/slider-01.jpg";
+import slider2 from "./img/slider-02.jpg";
+import slider3 from "./img//slider-03.jpg";
 
 export default {
   logo: [
@@ -44,6 +47,26 @@ export default {
       id: 6,
       img: gallery_06,
       alt: "Imagen de galeria",
+    },
+  ],
+  bg_images: [
+    {
+      id: 1,
+      img: slider1,
+      name: "slider1",
+      url: "/src/assets/img/slider-01.jpg",
+    },
+    {
+      id: 2,
+      img: slider2,
+      name: "slider2",
+      url: "/src/assets/img/slider-02.jpg",
+    },
+    {
+      id: 3,
+      img: slider3,
+      name: "slider3",
+      url: "/src/assets/img/slider-03.jpg",
     },
   ],
 };
