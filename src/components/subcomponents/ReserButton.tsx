@@ -1,7 +1,7 @@
 import React from "react";
 
 interface Props {
- name_button: string;
+  name_button: string;
 }
 
 function ReserButton({ name_button }: Props) {

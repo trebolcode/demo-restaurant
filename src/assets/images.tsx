@@ -5,9 +5,14 @@ import gallery_03 from "./img/gallery-img-03.jpg";
 import gallery_04 from "./img/gallery-img-04.jpg";
 import gallery_05 from "./img/gallery-img-05.jpg";
 import gallery_06 from "./img/gallery-img-06.jpg";
+
 import slider1 from "./img/slider-01.jpg";
 import slider2 from "./img/slider-02.jpg";
 import slider3 from "./img//slider-03.jpg";
+
+import SliderLeft from "./icon/chevron-left.svg";
+import SliderRight from "./icon/chevron-right.svg";
+
 
 export default {
   logo: [
@@ -48,6 +53,7 @@ export default {
       img: gallery_06,
       alt: "Imagen de galeria",
     },
+
   ],
   bg_images: [
     {
@@ -143,4 +149,16 @@ export default {
       price: 0,
     },
   ],
+  icon: [
+    {
+      id: 1,
+      img: SliderLeft,
+      alt: "Slider left",
+    },
+    {
+      id: 2,
+      img: SliderRight,
+      alt: "Slider right",
+    }
+  ]
 };
