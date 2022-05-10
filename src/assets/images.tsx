@@ -5,8 +5,14 @@ import gallery_03 from "./img/gallery-img-03.jpg";
 import gallery_04 from "./img/gallery-img-04.jpg";
 import gallery_05 from "./img/gallery-img-05.jpg";
 import gallery_06 from "./img/gallery-img-06.jpg";
+
+import slider1 from "./img/slider-01.jpg";
+import slider2 from "./img/slider-02.jpg";
+import slider3 from "./img//slider-03.jpg";
+
 import SliderLeft from "./icon/chevron-left.svg";
 import SliderRight from "./icon/chevron-right.svg";
+
 
 export default {
   logo: [
@@ -48,6 +54,100 @@ export default {
       alt: "Imagen de galeria",
     },
 
+  ],
+  bg_images: [
+    {
+      id: 1,
+      img: slider1,
+      name: "slider1",
+      url: "/src/assets/img/slider-01.jpg",
+    },
+    {
+      id: 2,
+      img: slider2,
+      name: "slider2",
+      url: "/src/assets/img/slider-02.jpg",
+    },
+    {
+      id: 3,
+      img: slider3,
+      name: "slider3",
+      url: "/src/assets/img/slider-03.jpg",
+    },
+  ],
+  grid_image: [
+    {
+      id: 1,
+      img: "file",
+      title: "drink1",
+      description: "drink1",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 2,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 3,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 4,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 5,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 6,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 7,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 8,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
+    {
+      id: 9,
+      img: "file",
+      title: "",
+      description: "",
+      category: "drinks",
+      price: 0,
+    },
   ],
   icon: [
     {

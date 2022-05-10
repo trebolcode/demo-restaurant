@@ -14,12 +14,13 @@ This project uses Docker, so it is necessary to have it installed as well:
 
 ## What is included in the installation? 📚
 
-| Tech               | Information                               |
-| ------------------ | ----------------------------------------- |
-| React JS (with TS) | [Documentation](https://en.reactjs.org/)  |
-| Tailwind CSS       | [Documentation](https://tailwindcss.com/) |
-| ViteJS             | [Documentation](https://vitejs.dev/)      |
-| Docker             | [Documentation](https://docs.docker.com/) |
+| Tech               | Information                                        |
+| ------------------ | -------------------------------------------------- |
+| React JS (with TS) | [Documentation](https://en.reactjs.org/)           |
+| Tailwind CSS       | [Documentation](https://tailwindcss.com/)          |
+| Axios              | [Documentation](https://axios-http.com/docs/intro) |
+| ViteJS             | [Documentation](https://vitejs.dev/)               |
+| Docker             | [Documentation](https://docs.docker.com/)          |
 
 ## How to start? 🚀
 
@@ -47,4 +48,6 @@ If you want to finish it, just press CTRL+D.
 
 🧑‍🚀[Orliland](https://github.com/Orliland)
 
-### Version 0.1.2 ⏰
+🧑‍🚀[kannder83](https://github.com/kannder83)
+
+### Version 0.1.4 ⏰

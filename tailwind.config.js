@@ -10,6 +10,7 @@ module.exports = {
         slider1: "url('./src/assets/img/slider-01.jpg')",
         slider2: "url('./src/assets/img/slider-02.jpg')",
         slider3: "url('./src/assets/img/slider-03.jpg')",
+        daily: "url('./src/assets/img/qt-bg.jpg')",
         allBg: "url('./src/assets/img/all-bg.jpg')",
       },
       colors: {
