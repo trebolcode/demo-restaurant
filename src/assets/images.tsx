@@ -13,6 +13,17 @@ import slider3 from "./img//slider-03.jpg";
 import SliderLeft from "./icon/chevron-left.svg";
 import SliderRight from "./icon/chevron-right.svg";
 
+import SpecialMenu_01 from "./img/img-01.jpg";
+import SpecialMenu_02 from "./img/img-02.jpg";
+import SpecialMenu_03 from "./img/img-03.jpg";
+import SpecialMenu_04 from "./img/img-04.jpg";
+import SpecialMenu_05 from "./img/img-05.jpg";
+import SpecialMenu_06 from "./img/img-06.jpg";
+import SpecialMenu_07 from "./img/img-07.jpg";
+import SpecialMenu_08 from "./img/img-08.jpg";
+import SpecialMenu_09 from "./img/img-09.jpg";
+
+
 
 export default {
   logo: [
@@ -81,75 +92,84 @@ export default {
   grid_image: [
     {
       id: 1,
-      img: "file",
-      title: "drink1",
-      description: "drink1",
+      img: SpecialMenu_01,
+      title: "Special Drinks 1",
+      description: "Sed id magna vitae eros sagittis euismod.",
       category: "drinks",
-      price: 0,
+      all: "all",
+      price: 7.79,
     },
     {
       id: 2,
-      img: "file",
-      title: "",
-      description: "",
+      img: SpecialMenu_02,
+      title: "Special Drinks 2",
+      description: "Sed id magna vitae eros sagittis euismod.",
       category: "drinks",
-      price: 0,
+      all: "all",
+      price: 9.79,
     },
     {
       id: 3,
-      img: "file",
-      title: "",
-      description: "",
+      img: SpecialMenu_03,
+      title: "Special Drinks 3",
+      description: "Sed id magna vitae eros sagittis euismod.",
       category: "drinks",
-      price: 0,
+      all: "all",
+      price: 10.79,
     },
     {
       id: 4,
-      img: "file",
-      title: "",
-      description: "",
-      category: "drinks",
-      price: 0,
+      img: SpecialMenu_04,
+      title: "Special Lunch 1",
+      description: "Sed id magna vitae eros sagittis euismod.",
+      category: "lunch",
+      all: "all",
+      price: 15.79,
     },
     {
       id: 5,
-      img: "file",
-      title: "",
-      description: "",
-      category: "drinks",
-      price: 0,
+      img: SpecialMenu_05,
+      title: "Special Lunch 2",
+      description: "Sed id magna vitae eros sagittis euismod.",
+      category: "lunch",
+      all: "all",
+      price: 18.79,
     },
     {
       id: 6,
-      img: "file",
-      title: "",
-      description: "",
-      category: "drinks",
-      price: 0,
+      img: SpecialMenu_06,
+      title: "Special Lunch 3",
+      description: "Sed id magna vitae eros sagittis euismod.",
+      category: "lunch",
+      all: "all",
+      price: 20.79,
     },
     {
       id: 7,
-      img: "file",
-      title: "",
-      description: "",
-      category: "drinks",
-      price: 0,
+      img: SpecialMenu_07,
+      title: "Special Dinner 1",
+      description: "Sed id magna vitae eros sagittis euismod.",
+      category: "dinner",
+      all: "all",
+      price: 25.79,
     },
     {
       id: 8,
-      img: "file",
-      title: "",
-      description: "",
-      category: "drinks",
-      price: 0,
+      img: SpecialMenu_08,
+      title: "Special Dinner 2",
+      description: "Sed id magna vitae eros sagittis euismod.",
+      category: "dinner",
+      all: "all",
+      price: 22.79,
     },
     {
       id: 9,
-      img: "file",
-      title: "",
-      description: "",
-      category: "drinks",
-      price: 0,
+      img: SpecialMenu_09,
+      title: "Special Dinner 3",
+      description: "Sed id magna vitae eros sagittis euismod.",
+      category: "dinner",
+      all: "all",
+      price: 24.79,
     },
   ],
   icon: [

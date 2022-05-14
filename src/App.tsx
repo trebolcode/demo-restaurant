@@ -26,7 +26,7 @@ function App() {
         <Route path="/hero" element={<OtherHero />} />
         <Route path="/api" element={<ConsultApi />} />
         <Route path="/testapi" element={<GetApi />} />
-        <Route path="/cards" element={<Cards />} />
+        {/* <Route path="/cards" element={<Cards subtitle={""} description={""} price={0} img={""} />} /> */}
         {/* for test */}
         <Route path="*" element={<p>404 Not Found</p>} />
       </Routes>
