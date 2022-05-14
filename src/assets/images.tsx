@@ -61,18 +61,21 @@ export default {
       img: slider1,
       name: "slider1",
       url: "/src/assets/img/slider-01.jpg",
+      title: "Live Dinner Restaurant",
     },
     {
       id: 2,
       img: slider2,
       name: "slider2",
       url: "/src/assets/img/slider-02.jpg",
+      title: "Live Dinner Restaurant",
     },
     {
       id: 3,
       img: slider3,
       name: "slider3",
       url: "/src/assets/img/slider-03.jpg",
+      title: "Yamifood Restaurant",      
     },
   ],
   grid_image: [
