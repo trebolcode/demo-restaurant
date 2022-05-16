@@ -4,28 +4,22 @@ interface Props {
   subtitle: string;
   description: string;
   price: number;
+  img: string;
 }
 
-const defaultProps: Props = {
-  subtitle: "Special Drinks",
-  description: "Sed id magna vitae eros sagittis euismod.",
-  price: 7.0,
-};
-
-const Cards = ({ subtitle, description, price }: Props) => {
+const Cards = ({ subtitle, description, price, img }: Props) => {
   return (
-    <div className="w-full  flex justify-center items-center">
-      <article className="w-full h-full bg-slider1 bg-cover bg-center overflow-hidden cursor-pointer rounded-xl group">
-        <div className="transform-gpu w-full h-full flex flex-col justify-end items-center  border-t-2 border-t-black opacity-0 group-hover:opacity-100 group-hover:bg-red-300/80 translate-y-full group-hover:translate-y-0 transition duration-500 ease-in-out">
-          <p>{subtitle}</p>
-          <p>{description}</p>
-          <p>{price}</p>
+    <div className="w-full flex justify-center items-center">
+      <article className={`w-64 h-40 bg-cover bg-center overflow-hidden group`}>
+        <img className="absolute w-64 h-40" src={img} alt="photos" />
+        <div className="transform-gpu w-full h-full flex flex-col group-hover:bg-colCard translate-y-full group-hover:translate-y-0 transition duration-500 ease-in-out font-Rubik text-white p-3">
+          <p className="text-base font-medium mb-4">{subtitle}</p>
+          <p className="text-sm pb-4 mb-4 border-b-[1px] border-dashed border-black">{description}</p>
+          <p className="text-lg font-semibold">${price}</p>
         </div>
-      </article>
+      </article>     
     </div>
   );
 };
-
-Cards.defaultProps = defaultProps;
 
 export default Cards;
