@@ -37,7 +37,7 @@ interface IPokemon {
 // }
 
 const GetApi = () => {
-  const URL = "https://pokeapi.co/api/v2/pokemon/23";
+  const URL = "https://c/api/v2/pokemon/23";
 
   // const poke_abi: PAbility[] = [{ name: "", url: "" }];
 

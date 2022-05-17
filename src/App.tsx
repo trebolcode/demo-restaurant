@@ -4,14 +4,13 @@ import Footer from "./components/Footer";
 import GetApi from "./components/GetApi";
 import NavBar from "./components/NavBar";
 import OtherHero from "./components/OtherHero";
-import Cards from "./components/subcomponents/Cards";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
