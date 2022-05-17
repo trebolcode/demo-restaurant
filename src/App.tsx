@@ -11,11 +11,11 @@ import Menu from "./pages/Menu";
 function App() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/menu" element={<><Menu/> <p>Page Menu</p></>} />
+        <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<p>Page About</p>} />
         <Route path="/reservation" element={<p>Page reservation</p>} />
         <Route path="/stuff" element={<p>Page stuff</p>} />

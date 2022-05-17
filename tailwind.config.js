@@ -21,9 +21,9 @@ module.exports = {
         "primary-orange": "#d44625",
         colCard: "#cfa671e6",
       },
-      boxShadow: {
-        shaReser: "20px 20px 0px 0px rgba(214,81,6,1)",
-      },
+      // boxShadow: {
+      //   shaReser: "20px 20px 0px 0px rgba(214,81,6,1)",
+      // },
     },
   },
   plugins: [],

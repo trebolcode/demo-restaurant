@@ -59,21 +59,21 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full h-14 absolute flex space-x-1 justify-center items-center">       
+      <div className="w-full h-14 absolute flex space-x-1 justify-center items-center">
         {imageIndicator}
       </div>
 
       <div className="my-0 m-auto top-[54%] lg:top-[46%] w-full absolute">
         <button
           onClick={() => previousClick()}
-          className="absolute left-0 bg-colReser w-10 lg:w-12 h-10 lg:h-12 flex justify-center items-center rounded-[4px] lg:hover:bg-colSliderHover transition duration-[300ms] ease-in-out"
+          className="absolute left-0 bg-colReser w-10 lg:w-12 h-10 lg:h-12 flex justify-center items-center rounded-[4px] lg:hover:bg-colSliderHover transition duration-300 ease-in-out"
         >
           <img src={images.icon[0].img} className="h-8 w-8" />
         </button>
 
         <button
           onClick={() => nextClick()}
-          className="absolute right-0 bg-colReser w-10 lg:w-12 h-10 lg:h-12 flex justify-center items-center rounded-[4px] lg:hover:bg-colSliderHover transition duration-[300ms] ease-in-out"
+          className="absolute right-0 bg-colReser w-10 lg:w-12 h-10 lg:h-12 flex justify-center items-center rounded-[4px] lg:hover:bg-colSliderHover transition duration-300 ease-in-out"
         >
           <img src={images.icon[1].img} className="h-8 w-8" />
         </button>

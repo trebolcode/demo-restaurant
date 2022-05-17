@@ -48,7 +48,7 @@ const OtherHero = () => {
       <p>{contador}</p>
       <p>{carousel[contador]}</p>
       <div
-        className={`w-full h-96 bg-cover bg-center bg-${carousel[contador]} transition-all ease-in duration-300`}
+        className={`w-full h-96 bg-cover bg-center bg-${carousel[contador]} transition-all ease-in duration-100`}
       ></div>
       <div className="w-full p-2 flex justify-around">
         <button

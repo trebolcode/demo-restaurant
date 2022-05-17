@@ -16,6 +16,8 @@ interface IPokemon {
   id: number;
   name: string;
   abilities: PAbilities[];
+  weight: number;
+  sprites: any;
 }
 
 // interface IPokemon {
@@ -35,7 +37,7 @@ interface IPokemon {
 // }
 
 const GetApi = () => {
-  const URL = "https://pokeapi.co/api/v2/pokemon/ditto";
+  const URL = "https://pokeapi.co/api/v2/pokemon/23";
 
   // const poke_abi: PAbility[] = [{ name: "", url: "" }];
 
@@ -45,6 +47,8 @@ const GetApi = () => {
     id: 0,
     name: "",
     abilities: [{ ability: [{ name: "", url: "" }], slot: 0 }],
+    weight: 0,
+    sprites: "",
   };
 
   const [pokemon, setPokemon]: [IPokemon, (pokemon: IPokemon) => void] =
@@ -62,11 +66,16 @@ const GetApi = () => {
       <div className="h-min text-white">
         <p>ID: {pokemon.id}</p>
         <p>NAME: {pokemon.name}</p>
+        <p>Weight: {pokemon.weight}</p>
         <ol>
           {pokemon.abilities.map((item) => (
             <li key={item.slot}>{item.ability.name}</li>
           ))}
         </ol>
+        <img
+          src={pokemon.sprites.other["official-artwork"].front_default}
+          alt=""
+        />
       </div>
     </section>
   );
