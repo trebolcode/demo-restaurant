@@ -1,10 +1,8 @@
 import React from "react";
-import Contact from "../components/Contact";
+import ContactInfo from "../components/ContactInfo";
 import Daily from "../components/Daily";
-import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
-import NavBar from "../components/NavBar";
 import Reservation from "../components/Reservation";
 import Reviews from "../components/Reviews";
 import SpecialMenu from "../components/SpecialMenu";
@@ -18,7 +16,7 @@ const Home = () => {
       <SpecialMenu />
       <Gallery />
       <Reviews />
-      <Contact />
+      <ContactInfo />
     </div>
   );
 };

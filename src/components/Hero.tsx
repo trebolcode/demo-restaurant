@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="w-full h-screen flex flex-row justify-center items-end flex-nowrap">
         <div className="w-full h-screen absolute">
           <div
-            className={`w-full h-screen bg-cover bg-center absolute bg-${carousel[contador]} transition-all ease-in duration-300`}
+            className={`w-full h-screen bg-cover bg-center absolute ${carousel[contador]} transition-all ease-in duration-300`}
           ></div>
 
           <div className="w-full h-screen bg-colReserHover opacity-50 absolute"></div>

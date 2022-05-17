@@ -3,7 +3,8 @@ import ConsultApi from "./components/ConsultApi";
 import Footer from "./components/Footer";
 import GetApi from "./components/GetApi";
 import NavBar from "./components/NavBar";
-import OtherHero from "./components/OtherHero";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 
@@ -15,17 +16,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/about" element={<p>Page About</p>} />
+        <Route path="/about" element={<About />} />
         <Route path="/reservation" element={<p>Page reservation</p>} />
         <Route path="/stuff" element={<p>Page stuff</p>} />
         <Route path="/gallery" element={<p>Page gallery</p>} />
-        <Route path="/contact" element={<p>Page contact</p>} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<p>Page blog</p>} />
         {/* for test */}
-        <Route path="/hero" element={<OtherHero />} />
         <Route path="/api" element={<ConsultApi />} />
         <Route path="/testapi" element={<GetApi />} />
-        {/* <Route path="/cards" element={<Cards subtitle={""} description={""} price={0} img={""} />} /> */}
         {/* for test */}
         <Route path="*" element={<p>404 Not Found</p>} />
       </Routes>
