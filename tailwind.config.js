@@ -12,6 +12,7 @@ module.exports = {
         slider3: "url('./src/assets/img/slider-03.jpg')",
         daily: "url('./src/assets/img/qt-bg.jpg')",
         allBg: "url('./src/assets/img/all-bg.jpg')",
+        selectBg: "url('./src/assets/icon/select.svg')",
       },
       colors: {
         colPrimary: "#ffffff",
