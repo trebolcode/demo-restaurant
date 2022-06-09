@@ -16,36 +16,36 @@ const SpecialMenu = () => {
         </p>
       </div>
 
-      <div className="w-full flex px-24">
-        <div className="w-[25%] flex flex-col">
+      <div className="w-full flex pl-2 pr-4 lg:px-24">
+        <div className="w-[25%] pr-4 flex flex-col">
           <button
             onClick={() => setSelect("all")}
-            className="w-64 py-2 px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
+            className="w-16 md:w-40 lg:w-64 py-2 px-2 md:px-4 lg:px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
           >
-            <a className="font-Rubik text-xl">All</a>
+            <a className="font-Rubik text-sm md:text-xl lg:text-xl">All</a>
           </button>
           <button
             onClick={() => setSelect("drinks")}
-            className="w-64 py-2 px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
+            className="w-16 md:w-40 lg:w-64 py-2 px-2 md:px-4 lg:px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
           >
-            <a className="font-Rubik text-xl">Drinks</a>
+            <a className="font-Rubik text-sm md:text-xl lg:text-xl">Drinks</a>
           </button>
           <button
             onClick={() => setSelect("lunch")}
-            className="w-64 py-2 px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
+            className="w-16 md:w-40 lg:w-64 py-2 px-2 md:px-4 lg:px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
           >
-            <a className="font-Rubik text-xl">Lunch</a>
+            <a className="font-Rubik text-sm md:text-xl lg:text-xl">Lunch</a>
           </button>
           <button
             onClick={() => setSelect("dinner")}
-            className="w-64 py-2 px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
+            className="w-16 md:w-40 lg:w-64 py-2 px-2 md:px-4 lg:px-4 focus:bg-colReser hover:bg-colReser rounded-md focus:text-white hover:text-white transition-all ease-in-out duration-400 cursor-pointer flex"
           >
-            <a className="font-Rubik text-xl">Dinner</a>
+            <a className="font-Rubik text-sm md:text-xl lg:text-xl">Dinner</a>
           </button>
         </div>
 
-        <div className="w-[75%]">
-          <div className="w-full gap-y-8 grid grid-cols-3 grid-rows-1">
+        <div className="relative w-[75%]">
+          <div className="w-full gap-8 grid grid-cols-auto-fit">
             {images.grid_image
               .filter((item) => item.category === select || item.all === select)
               .map((image) => (

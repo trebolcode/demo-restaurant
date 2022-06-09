@@ -12,6 +12,7 @@ module.exports = {
         slider3: "url('./src/assets/img/slider-03.jpg')",
         daily: "url('./src/assets/img/qt-bg.jpg')",
         allBg: "url('./src/assets/img/all-bg.jpg')",
+        selectBg: "url('./src/assets/icon/select.svg')",
       },
       colors: {
         colPrimary: "#ffffff",
@@ -23,6 +24,14 @@ module.exports = {
       },
       boxShadow: {
         shaReser: "20px 20px 0px 0px rgba(214,81,6,1)",
+      },
+      gridTemplateColumns: {
+        "auto-fit": "repeat(auto-fit, minmax(210px, 1fr))",
+        "auto-fill": "repeat(auto-fill, minmax(0, 1fr))",
+      },
+      gridTemplateRows: {
+        "auto-fit": "repeat(auto-fit, minmax(0, 1fr))",
+        "auto-fill": "repeat(auto-fill, minmax(0, 1fr))",
       },
     },
   },
